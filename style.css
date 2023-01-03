@@ -149,12 +149,20 @@ a{
     line-height: 2;;
 }
 
-.todolist{
+.Todolist{
+    display: block;
+    text-decoration: underline;
     font-size: 1.6rem;
-    font-weight: 700;
+    margin-top: 1rem;
 
+}
+.Todolist:Hover{
+    color: var(--primary-color);
 }
 
 .todolist_description{
     color: var(--text-color);
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
 }
